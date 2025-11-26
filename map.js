@@ -248,6 +248,7 @@ const providelMapping = [
         imagerouter: "bytedance/seedream-4",
         nanogpt: "seedream-v4",
         runware: "bytedance:5@0",
+        deepinfra: "ByteDance/Seedream-4",
     },
     {
         imagerouter: "cagliostrolab/animagine-xl-3.0",
