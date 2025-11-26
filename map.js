@@ -18,10 +18,6 @@ const providelMapping = [
         runware: "runware:106@1",
     },
     {
-        deepinfra: "black-forest-labs/FLUX-1-schnell",
-        imagerouter: "black-forest-labs/FLUX-1-schnell:free",
-    },
-    {
         deepinfra: "black-forest-labs/FLUX-1.1-pro",
         imagerouter: "black-forest-labs/FLUX-1.1-pro",
         runware: "bfl:2@1",
@@ -189,24 +185,12 @@ const providelMapping = [
         imagerouter: "bria/blur-background",
     },
     {
-        deepinfra: "Bria/blur_background",
-        imagerouter: "bria/blur-background:free",
-    },
-    {
         deepinfra: "Bria/Bria-3.2",
         imagerouter: "bria/bria-3.2",
     },
     {
         deepinfra: "Bria/Bria-3.2-vector",
         imagerouter: "bria/bria-3.2-vector",
-    },
-    {
-        deepinfra: "Bria/Bria-3.2-vector",
-        imagerouter: "bria/bria-3.2-vector:free",
-    },
-    {
-        deepinfra: "Bria/Bria-3.2",
-        imagerouter: "bria/bria-3.2:free",
     },
     {
         imagerouter: "bria/bria-fibo",
@@ -219,25 +203,12 @@ const providelMapping = [
         imagerouter: "bria/enhance",
     },
     {
-        deepinfra: "Bria/enhance",
-        imagerouter: "bria/enhance:free",
-    },
-    {
         deepinfra: "Bria/erase_foreground",
         imagerouter: "bria/erase-foreground",
     },
     {
-        deepinfra: "Bria/erase_foreground",
-        imagerouter: "bria/erase-foreground:free",
-    },
-    {
         deepinfra: "Bria/remove_background",
         imagerouter: "bria/remove-background",
-        runware: "runware:110@1",
-    },
-    {
-        deepinfra: "Bria/remove_background",
-        imagerouter: "bria/remove-background:free",
         runware: "runware:110@1",
     },
     {
@@ -247,10 +218,6 @@ const providelMapping = [
     {
         chutes: "infiniteyou",
         imagerouter: "ByteDance/InfiniteYou",
-    },
-    {
-        chutes: "infiniteyou",
-        imagerouter: "ByteDance/InfiniteYou:free",
     },
     {
         imagerouter: "bytedance/seedance-1-lite",
@@ -379,10 +346,7 @@ const providelMapping = [
     {
         imagerouter: "HiDream-ai/HiDream-I1-Full",
         runware: "runware:97@1",
-    },
-    {
         chutes: "hidream",
-        imagerouter: "HiDream-ai/HiDream-I1-Full:free",
     },
     {
         imagerouter: "ideogram-ai/ideogram-v2a",
@@ -469,10 +433,6 @@ const providelMapping = [
     {
         chutes: "chroma",
         imagerouter: "lodestones/Chroma",
-    },
-    {
-        chutes: "chroma",
-        imagerouter: "lodestones/Chroma:free",
     },
     {
         imagerouter: "luma/photon",
@@ -614,11 +574,6 @@ const providelMapping = [
     {
         deepinfra: "stabilityai/sdxl-turbo",
         imagerouter: "stabilityai/sdxl-turbo",
-        runware: "civitai:215418@273102",
-    },
-    {
-        deepinfra: "stabilityai/sdxl-turbo",
-        imagerouter: "stabilityai/sdxl-turbo:free",
         runware: "civitai:215418@273102",
     },
     {
