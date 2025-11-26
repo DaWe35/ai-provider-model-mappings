@@ -17,6 +17,7 @@ const providelMapping = [
         chutes: "FLUX.1-schnell",
         nanogpt: "flux-schnell",
         replicate: "runware:100@1",
+        imagerouter: "black-forest-labs/FLUX-1-schnell"
     },
     {
         huggingface: "briaai/FIBO",
