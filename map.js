@@ -1,27 +1,71 @@
 const providelMapping = [
     {
+        chutes: "FLUX.1-schnell",
+        cloudflare: "@cf/black-forest-labs/flux-1-schnell",
+        deepinfra: "black-forest-labs/FLUX-1-schnell",
+        fal: "fal-ai/flux-1/schnell",
+        huggingface: "black-forest-labs/FLUX.1-schnell",
+        imagerouter: "black-forest-labs/FLUX-1-schnell",
+        nanogpt: "flux-schnell",
+        replicate: "black-forest-labs/flux-schnell",
+        runware: "runware:100@1",
+        wavespeed: "wavespeed-ai/flux-schnell",
+    },
+    {
+        huggingface: "black-forest-labs/FLUX.1-Kontext-dev",
+        replicate: "black-forest-labs/flux-kontext-dev",
+        imagerouter: "black-forest-labs/flux-kontext-dev",
+        runware: "runware:106@1",
+    },
+    {
+        deepinfra: "black-forest-labs/FLUX-1-schnell",
+        imagerouter: "black-forest-labs/FLUX-1-schnell:free",
+    },
+    {
+        deepinfra: "black-forest-labs/FLUX-1.1-pro",
+        imagerouter: "black-forest-labs/FLUX-1.1-pro",
+        runware: "bfl:2@1",
+    },
+    {
+        imagerouter: "black-forest-labs/flux-1.1-pro-ultra",
+        replicate: "black-forest-labs/flux-1.1-pro-ultra",
+        runware: "bfl:2@2",
+    },
+    {
+        imagerouter: "black-forest-labs/FLUX-2-dev",
+        runware: "runware:400@1",
+    },
+    {
+        imagerouter: "black-forest-labs/FLUX-2-flex",
+        runware: "bfl:6@1",
+    },
+    {
+        imagerouter: "black-forest-labs/FLUX-2-pro",
+        runware: "bfl:5@1",
+    },
+    {
+        imagerouter: "black-forest-labs/flux-kontext-max",
+        runware: "bfl:4@1",
+    },
+    {
+        imagerouter: "black-forest-labs/flux-kontext-pro",
+        runware: "bfl:3@1",
+    },
+    {
+        deepinfra: "black-forest-labs/FLUX-pro",
+        imagerouter: "black-forest-labs/FLUX-pro",
+    },
+    {
         huggingface: "black-forest-labs/FLUX.1-dev",
         replicate: "black-forest-labs/flux-dev",
+        imagerouter: "black-forest-labs/FLUX-1-dev",
+        runware: "runware:101@1",
     },
     {
         huggingface: "black-forest-labs/FLUX.1-Krea-dev",
         replicate: "black-forest-labs/flux-krea-dev",
-    },
-    {
-        huggingface: "black-forest-labs/FLUX.1-schnell",
-        cloudflare: "@cf/black-forest-labs/flux-1-schnell",
-        deepinfra: "black-forest-labs/FLUX-1-schnell",
-        replicate: "black-forest-labs/flux-schnell",
-        fal: "fal-ai/flux-1/schnell",
-        wavespeed: "wavespeed-ai/flux-schnell",
-        chutes: "FLUX.1-schnell",
-        nanogpt: "flux-schnell",
-        replicate: "runware:100@1",
-        imagerouter: "black-forest-labs/FLUX-1-schnell"
-    },
-    {
-        huggingface: "briaai/FIBO",
-        replicate: "bria/fibo",
+        runware: "runware:107@1",
+        imagerouter: "black-forest-labs/flux-krea-dev",
     },
     {
         huggingface: "ByteDance/SDXL-Lightning",
@@ -38,10 +82,20 @@ const providelMapping = [
     {
         huggingface: "Qwen/Qwen-Image",
         replicate: "qwen/qwen-image",
+        fal: "fal-ai/qwen-image",
+        imagerouter: "qwen/qwen-image",
+        runware: "runware:108@1",
+        chutes: "qwen-image",
     },
     {
         huggingface: "Qwen/Qwen-Image-Edit",
         replicate: "qwen/qwen-image-edit",
+        imagerouter: "qwen/qwen-image-edit",
+        runware: "runware:108@20",
+    },
+    {
+        imagerouter: "qwen/qwen-image-edit-plus",
+        runware: "runware:108@22",
     },
     {
         huggingface: "stabilityai/stable-diffusion-3-medium",
@@ -53,6 +107,8 @@ const providelMapping = [
     },
     {
         huggingface: "stabilityai/stable-diffusion-3.5-large",
+        replicate: "stability-ai/stable-diffusion-3.5-large",
+        imagerouter: "stabilityai/sd3.5",
         replicate: "stability-ai/stable-diffusion-3.5-large",
     },
     {
@@ -70,6 +126,8 @@ const providelMapping = [
     {
         huggingface: "tencent/HunyuanImage-3.0",
         replicate: "tencent/hunyuan-image-3",
+        imagerouter: "tencent/hunyuan-image-3",
+        nanogpt: "hunyuan-image-3",
     },
     {
         huggingface: "zeke/rider-waite-tarot-flux",
@@ -108,10 +166,6 @@ const providelMapping = [
         replicate: "lightricks/ltx-video",
     },
     {
-        huggingface: "black-forest-labs/FLUX.1-Kontext-dev",
-        replicate: "black-forest-labs/flux-kontext-dev",
-    },
-    {
         huggingface: "hexgrad/Kokoro-82M",
         replicate: "jaaari/kokoro-82m:f559560eb822dc509045f3921a1921234918b91739db4bf3daab2169b71c7a13",
     },
@@ -123,4 +177,442 @@ const providelMapping = [
         huggingface: "openai/whisper-large-v3",
         replicate: "openai/whisper:8099696689d249cf8b122d833c36ac3f75505c666a395ca40ef26f68e7d3d16e",
     },
+    {
+        imagerouter: "asiryan/Realistic-Vision",
+        runware: "civitai:4201@130072",
+    },
+    {
+        deepinfra: "Bria/blur_background",
+        imagerouter: "bria/blur-background",
+    },
+    {
+        deepinfra: "Bria/blur_background",
+        imagerouter: "bria/blur-background:free",
+    },
+    {
+        deepinfra: "Bria/Bria-3.2",
+        imagerouter: "bria/bria-3.2",
+    },
+    {
+        deepinfra: "Bria/Bria-3.2-vector",
+        imagerouter: "bria/bria-3.2-vector",
+    },
+    {
+        deepinfra: "Bria/Bria-3.2-vector",
+        imagerouter: "bria/bria-3.2-vector:free",
+    },
+    {
+        deepinfra: "Bria/Bria-3.2",
+        imagerouter: "bria/bria-3.2:free",
+    },
+    {
+        imagerouter: "bria/bria-fibo",
+        runware: "bria:20@1",
+        huggingface: "briaai/FIBO",
+        replicate: "bria/fibo",
+    },
+    {
+        deepinfra: "Bria/enhance",
+        imagerouter: "bria/enhance",
+    },
+    {
+        deepinfra: "Bria/enhance",
+        imagerouter: "bria/enhance:free",
+    },
+    {
+        deepinfra: "Bria/erase_foreground",
+        imagerouter: "bria/erase-foreground",
+    },
+    {
+        deepinfra: "Bria/erase_foreground",
+        imagerouter: "bria/erase-foreground:free",
+    },
+    {
+        deepinfra: "Bria/remove_background",
+        imagerouter: "bria/remove-background",
+        runware: "runware:110@1",
+    },
+    {
+        deepinfra: "Bria/remove_background",
+        imagerouter: "bria/remove-background:free",
+        runware: "runware:110@1",
+    },
+    {
+        fal: "fal-ai/bytedance/dreamina/v3.1/text-to-image",
+        imagerouter: "bytedance/dreamina-3.1",
+    },
+    {
+        chutes: "infiniteyou",
+        imagerouter: "ByteDance/InfiniteYou",
+    },
+    {
+        chutes: "infiniteyou",
+        imagerouter: "ByteDance/InfiniteYou:free",
+    },
+    {
+        imagerouter: "bytedance/seedance-1-lite",
+        runware: "bytedance:1@1",
+        wavespeed: "bytedance/seedance-v1-lite-t2v-720p",
+    },
+    {
+        imagerouter: "bytedance/seedance-1-pro",
+        runware: "bytedance:2@1",
+        wavespeed: "bytedance/seedance-v1-pro-t2v-720p",
+    },
+    {
+        imagerouter: "bytedance/seedance-1-pro-fast",
+        runware: "bytedance:2@2",
+    },
+    {
+        fal: "fal-ai/bytedance/seededit/v3/edit-image",
+        imagerouter: "bytedance/seededit-3",
+        runware: "bytedance:4@1",
+    },
+    {
+        fal: "fal-ai/bytedance/seedream/v3/text-to-image",
+        imagerouter: "bytedance/seedream-3",
+        nanogpt: "seedream-v3",
+        runware: "bytedance:3@1",
+    },
+    {
+        imagerouter: "bytedance/seedream-4",
+        nanogpt: "seedream-v4",
+        runware: "bytedance:5@0",
+    },
+    {
+        imagerouter: "cagliostrolab/animagine-xl-3.0",
+        runware: "civitai:260267@293564",
+    },
+    {
+        imagerouter: "csslc/ccsr-2x",
+        runware: "runware:501@1",
+    },
+    {
+        imagerouter: "cyberdelia/CyberRealisticPony",
+        runware: "pasaranax:443821@1957537",
+    },
+    {
+        gemini: "gemini-2.5-flash-image",
+        imagerouter: "google/gemini-2.5-flash",
+        vertex: "gemini-2.5-flash-image",
+    },
+    {
+        gemini: "gemini-3-pro-image-preview",
+        imagerouter: "google/gemini-3-pro",
+    },
+    {
+        geminiImagen: "imagen-3.0-generate-002",
+        imagerouter: "google/imagen-3",
+        vertex: "imagen-3.0-generate-002",
+    },
+    {
+        imagerouter: "google/imagen-3-fast",
+        vertex: "imagen-3.0-fast-generate-001",
+    },
+    {
+        imagerouter: "google/imagen-4",
+        vertex: "imagen-4.0-generate-001",
+    },
+    {
+        imagerouter: "google/imagen-4-05-20",
+        vertex: "imagen-4.0-generate-preview-05-20",
+    },
+    {
+        imagerouter: "google/imagen-4-06-06",
+        vertex: "imagen-4.0-generate-preview-06-06",
+    },
+    {
+        imagerouter: "google/imagen-4-fast",
+        vertex: "imagen-4.0-fast-generate-001",
+    },
+    {
+        imagerouter: "google/imagen-4-fast-06-06",
+        vertex: "imagen-4.0-fast-generate-preview-06-06",
+    },
+    {
+        imagerouter: "google/imagen-4-ultra",
+        vertex: "imagen-4.0-ultra-generate-001",
+    },
+    {
+        imagerouter: "google/imagen-4-ultra-05-20",
+        vertex: "imagen-4.0-ultra-generate-exp-05-20",
+    },
+    {
+        imagerouter: "google/imagen-4-ultra-06-06",
+        vertex: "imagen-4.0-ultra-generate-preview-06-06",
+    },
+    {
+        gemini: "veo-2.0-generate-001",
+        imagerouter: "google/veo-2",
+    },
+    {
+        gemini: "veo-3.0-generate-001",
+        imagerouter: "google/veo-3",
+    },
+    {
+        gemini: "veo-3.0-fast-generate-001",
+        imagerouter: "google/veo-3-fast",
+    },
+    {
+        gemini: "veo-3.1-generate-preview",
+        imagerouter: "google/veo-3.1",
+    },
+    {
+        gemini: "veo-3.1-fast-generate-preview",
+        imagerouter: "google/veo-3.1-fast",
+    },
+    {
+        fal: "fal-ai/hidream-e1-1",
+        imagerouter: "HiDream-ai/HiDream-E1-1",
+    },
+    {
+        imagerouter: "HiDream-ai/HiDream-I1-Dev",
+        runware: "runware:97@2",
+    },
+    {
+        imagerouter: "HiDream-ai/HiDream-I1-Fast",
+        runware: "runware:97@3",
+    },
+    {
+        imagerouter: "HiDream-ai/HiDream-I1-Full",
+        runware: "runware:97@1",
+    },
+    {
+        chutes: "hidream",
+        imagerouter: "HiDream-ai/HiDream-I1-Full:free",
+    },
+    {
+        imagerouter: "ideogram-ai/ideogram-v2a",
+        replicate: "ideogram-ai/ideogram-v2a",
+    },
+    {
+        imagerouter: "ideogram-ai/ideogram-v2a-turbo",
+        replicate: "ideogram-ai/ideogram-v2a-turbo",
+    },
+    {
+        imagerouter: "ideogram-ai/ideogram-v3",
+        replicate: "ideogram-ai/ideogram-v3",
+    },
+    {
+        imagerouter: "ideogram-ai/ideogram-v3-balanced",
+        replicate: "ideogram-ai/ideogram-v3-balanced",
+    },
+    {
+        imagerouter: "ideogram-ai/ideogram-v3-quality",
+        replicate: "ideogram-ai/ideogram-v3-quality",
+    },
+    {
+        imagerouter: "ideogram-ai/ideogram-v3-turbo",
+        replicate: "ideogram-ai/ideogram-v3-turbo",
+    },
+    {
+        imagerouter: "imagineart/imagineart-1.5",
+        runware: "imagineart:1@5",
+    },
+    {
+        imagerouter: "jingyunliang/swinir-2x",
+        runware: "runware:503@1",
+    },
+    {
+        imagerouter: "kwaivgi/kling-1.6-standard",
+        replicate: "kwaivgi/kling-v1.6-standard",
+        runware: "klingai:3@1",
+    },
+    {
+        imagerouter: "kwaivgi/kling-2.1-master",
+        replicate: "kwaivgi/kling-v2.1-master",
+        runware: "klingai:4@3",
+    },
+    {
+        imagerouter: "kwaivgi/kling-2.1-pro",
+        replicate: "kwaivgi/kling-v2.1",
+        runware: "klingai:5@2",
+    },
+    {
+        imagerouter: "kwaivgi/kling-2.1-standard",
+        replicate: "kwaivgi/kling-v2.1",
+        runware: "klingai:5@1",
+    },
+    {
+        imagerouter: "kwaivgi/kling-2.5-turbo-pro",
+        runware: "klingai:6@1",
+    },
+    {
+        imagerouter: "kwaivgi/kling-2.5-turbo-standard",
+        runware: "klingai:6@0",
+    },
+    {
+        imagerouter: "kwaivgi/wan-2.2",
+        runware: "runware:200@6",
+    },
+    {
+        imagerouter: "kwaivgi/wan-2.5",
+        runware: "runware:201@1",
+    },
+    {
+        imagerouter: "leonardoai/lucid-origin",
+        nanogpt: "lucid-origin",
+        replicate: "leonardoai/lucid-origin",
+    },
+    {
+        imagerouter: "lightricks/ltx-2-fast",
+        runware: "lightricks:2@1",
+    },
+    {
+        imagerouter: "lightricks/ltx-2-pro",
+        runware: "lightricks:2@0",
+    },
+    {
+        chutes: "chroma",
+        imagerouter: "lodestones/Chroma",
+    },
+    {
+        chutes: "chroma",
+        imagerouter: "lodestones/Chroma:free",
+    },
+    {
+        imagerouter: "luma/photon",
+        replicate: "luma/photon",
+    },
+    {
+        imagerouter: "luma/photon-flash",
+        replicate: "luma/photon-flash",
+    },
+    {
+        imagerouter: "Lykon/DreamShaper",
+        runware: "civitai:4384@128713",
+    },
+    {
+        imagerouter: "midjourney/midjourney",
+        nanogpt: "midjourney",
+    },
+    {
+        imagerouter: "minimax/hailuo-02-pro",
+        wavespeed: "minimax/hailuo-02/pro",
+    },
+    {
+        imagerouter: "minimax/hailuo-02-standard",
+        runware: "minimax:3@1",
+        wavespeed: "minimax/hailuo-02/standard",
+    },
+    {
+        imagerouter: "minimax/hailuo-2.3",
+        runware: "minimax:4@1",
+    },
+    {
+        imagerouter: "minimax/hailuo-2.3-fast",
+        runware: "minimax:4@2",
+    },
+    {
+        imagerouter: "minimax/image-01",
+        replicate: "minimax/image-01",
+    },
+    {
+        imagerouter: "openai/dall-e-2",
+        openai: "dall-e-2",
+    },
+    {
+        imagerouter: "openai/dall-e-3",
+        openai: "dall-e-3",
+    },
+    {
+        imagerouter: "openai/gpt-image-1",
+        nanogpt: "gpt-image-1",
+        openai: "gpt-image-1",
+    },
+    {
+        imagerouter: "openai/gpt-image-1-mini",
+        nanogpt: "gpt-image-1-mini",
+        openai: "gpt-image-1-mini",
+    },
+    {
+        imagerouter: "openai/sora-2",
+        runware: "openai:3@1",
+    },
+    {
+        imagerouter: "philz1337x/clarity-2x",
+        runware: "runware:500@1",
+    },
+    {
+        fal: "fal-ai/recraft/v3/text-to-image",
+        imagerouter: "recraft-ai/recraft-v3",
+    },
+    {
+        imagerouter: "recraft-ai/recraft-v3-svg",
+        replicate: "recraft-ai/recraft-v3-svg",
+    },
+    {
+        fal: "fal-ai/recraft/vectorize",
+        imagerouter: "recraft-ai/recraft-vectorize",
+    },
+    {
+        imagerouter: "reve/reve-1",
+        replicate: "reve/create",
+    },
+    {
+        imagerouter: "run-diffusion/Juggernaut-Flux",
+        runware: "rundiffusion:120@100",
+    },
+    {
+        imagerouter: "run-diffusion/Juggernaut-Lightning-Flux",
+        runware: "rundiffusion:110@101",
+    },
+    {
+        imagerouter: "run-diffusion/Juggernaut-Pro-Flux",
+        runware: "rundiffusion:130@100",
+    },
+    {
+        imagerouter: "run-diffusion/Juggernaut-XL",
+        runware: "civitai:133005@782002",
+    },
+    {
+        imagerouter: "run-diffusion/RunDiffusion-Photo-Flux",
+        runware: "rundiffusion:500@100",
+    },
+    {
+        imagerouter: "SG161222/RealVisXL",
+        runware: "civitai:139562@798204",
+    },
+    {
+        imagerouter: "sourceful/riverflow-1",
+        runware: "sourceful:1@1",
+    },
+    {
+        imagerouter: "sourceful/riverflow-1-mini",
+        runware: "sourceful:1@0",
+    },
+    {
+        imagerouter: "stabilityai/latent-2x",
+        runware: "runware:502@1",
+    },
+    {
+        imagerouter: "stabilityai/sd1.5-dpo",
+        runware: "civitai:240850@271743",
+    },
+    {
+        imagerouter: "stabilityai/sd3",
+        runware: "runware:5@1",
+    },
+    {
+        imagerouter: "stabilityai/sdxl",
+        runware: "civitai:101055@128078",
+    },
+    {
+        deepinfra: "stabilityai/sdxl-turbo",
+        imagerouter: "stabilityai/sdxl-turbo",
+        runware: "civitai:215418@273102",
+    },
+    {
+        deepinfra: "stabilityai/sdxl-turbo",
+        imagerouter: "stabilityai/sdxl-turbo:free",
+        runware: "civitai:215418@273102",
+    },
+    {
+        imagerouter: "wavespeed/ghibli",
+        wavespeed: "wavespeed-ai/ghibli",
+    },
+    {
+        grok: "grok-2-image",
+        imagerouter: "xAI/grok-2-image",
+    }
 ];

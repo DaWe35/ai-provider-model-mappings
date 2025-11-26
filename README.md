@@ -3,5 +3,3 @@ Providers are a bit too creative with model names, serving the same model but un
 
 ## Contributing
 While I'm focused on Image and Video models, other models are welcome to be added. Please add them to the `map.js` file and open a pull request.
-
-No AI slop will be merged, please always check the model on the provider's website to make sure the model is the same.
