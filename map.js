@@ -32,6 +32,7 @@ const providelMapping = [
         runware: "bfl:2@2",
     },
     {
+        cloudflare: "@cf/black-forest-labs/flux-2-dev",
         imagerouter: "black-forest-labs/FLUX-2-dev",
         runware: "runware:400@1",
     },
@@ -68,6 +69,7 @@ const providelMapping = [
         imagerouter: "black-forest-labs/flux-krea-dev",
     },
     {
+        cloudflare: "@cf/bytedance/stable-diffusion-xl-lightning",
         huggingface: "ByteDance/SDXL-Lightning",
         replicate: "bytedance/sdxl-lightning-4step",
     },
@@ -116,6 +118,7 @@ const providelMapping = [
         replicate: "stability-ai/stable-diffusion-3.5-large-turbo",
     },
     {
+        cloudflare: "@cf/stabilityai/stable-diffusion-xl-base-1.0",
         huggingface: "stabilityai/stable-diffusion-xl-base-1.0",
         replicate: "stability-ai/sdxl:7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
     },
@@ -450,6 +453,7 @@ const providelMapping = [
         runware: "runware:201@1",
     },
     {
+        cloudflare: "@cf/leonardo/lucid-origin",
         imagerouter: "leonardoai/lucid-origin",
         nanogpt: "lucid-origin",
         replicate: "leonardoai/lucid-origin",
@@ -479,8 +483,18 @@ const providelMapping = [
         replicate: "luma/photon-flash",
     },
     {
+        cloudflare: "@cf/lykon/dreamshaper-8-lcm",
         imagerouter: "Lykon/DreamShaper",
         runware: "civitai:4384@128713",
+    },
+    {
+        cloudflare: "@cf/leonardo/phoenix-1.0",
+    },
+    {
+        cloudflare: "@cf/runwayml/stable-diffusion-v1-5-img2img",
+    },
+    {
+        cloudflare: "@cf/runwayml/stable-diffusion-v1-5-inpainting",
     },
     {
         imagerouter: "midjourney/midjourney",
