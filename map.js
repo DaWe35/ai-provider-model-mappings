@@ -17,18 +17,21 @@ const providelMapping = [
         imagerouter: "black-forest-labs/flux-kontext-dev",
         runware: "runware:106@1",
         fal: "fal-ai/flux-kontext/dev",
+        nanogpt: "runware:106@1",
     },
     {
         deepinfra: "black-forest-labs/FLUX-1.1-pro",
         imagerouter: "black-forest-labs/FLUX-1.1-pro",
         runware: "bfl:2@1",
         fal: "fal-ai/flux-pro/v1.1",
+        nanogpt: "flux-pro/v1.1",
     },
     {
         imagerouter: "black-forest-labs/flux-1.1-pro-ultra",
         replicate: "black-forest-labs/flux-1.1-pro-ultra",
         runware: "bfl:2@2",
         fal: "fal-ai/flux-pro/v1.1-ultra",
+        nanogpt: "flux-pro/v1.1-ultra",
     },
     {
         cloudflare: "@cf/black-forest-labs/flux-2-dev",
@@ -55,10 +58,13 @@ const providelMapping = [
         imagerouter: "black-forest-labs/flux-kontext-pro",
         runware: "bfl:3@1",
         fal: "fal-ai/flux-pro/kontext",
+        nanogpt: "flux-kontext",
     },
     {
         deepinfra: "black-forest-labs/FLUX-pro",
         imagerouter: "black-forest-labs/FLUX-pro",
+        nanogpt: "flux-pro",
+        fal: "fal-ai/flux-pro/v1.1",
     },
     {
         huggingface: "black-forest-labs/FLUX.1-dev",
@@ -72,6 +78,7 @@ const providelMapping = [
         replicate: "black-forest-labs/flux-krea-dev",
         runware: "runware:107@1",
         imagerouter: "black-forest-labs/flux-krea-dev",
+        nanogpt: "runware:107@1",
     },
     {
         cloudflare: "@cf/bytedance/stable-diffusion-xl-lightning",
@@ -87,6 +94,7 @@ const providelMapping = [
         huggingface: "playgroundai/playground-v2.5-1024px-aesthetic",
         replicate: "playgroundai/playground-v2.5-1024px-aesthetic:a45f82a1382bed5c7aeb861dac7c7d191b0fdf74d8d57c4a0e6ed7d4d0bf7d24",
         fal: "fal-ai/playground-v25",
+        nanogpt: "playground-v25",
     },
     {
         huggingface: "Qwen/Qwen-Image",
@@ -105,6 +113,7 @@ const providelMapping = [
         runware: "runware:108@20",
         fal: "fal-ai/qwen-image-edit",
         wavespeed: "wavespeed-ai/qwen-image/edit",
+        nanogpt: "qwen-image",
     },
     {
         imagerouter: "qwen/qwen-image-edit-plus",
@@ -129,6 +138,7 @@ const providelMapping = [
         imagerouter: "stabilityai/sd3.5",
         replicate: "stability-ai/stable-diffusion-3.5-large",
         fal: "fal-ai/stable-diffusion-v35-large",
+        nanogpt: "stable-diffusion-v35-large",
     },
     {
         huggingface: "stabilityai/stable-diffusion-3.5-large-turbo",
@@ -332,6 +342,7 @@ const providelMapping = [
         imagerouter: "google/imagen-4",
         vertex: "imagen-4.0-generate-001",
         fal: "fal-ai/imagen4/preview",
+        nanogpt: "imagen-4",
     },
     {
         imagerouter: "google/imagen-4-05-20",
@@ -345,6 +356,7 @@ const providelMapping = [
         imagerouter: "google/imagen-4-fast",
         vertex: "imagen-4.0-fast-generate-001",
         fal: "fal-ai/imagen4/preview/fast",
+        nanogpt: "imagen-4-fast",
     },
     {
         imagerouter: "google/imagen-4-fast-06-06",
@@ -354,6 +366,7 @@ const providelMapping = [
         imagerouter: "google/imagen-4-ultra",
         vertex: "imagen-4.0-ultra-generate-001",
         fal: "fal-ai/imagen4/preview/ultra",
+        nanogpt: "imagen-4-ultra",
     },
     {
         imagerouter: "google/imagen-4-ultra-05-20",
@@ -393,6 +406,7 @@ const providelMapping = [
     {
         fal: "fal-ai/hidream-e1-1",
         imagerouter: "HiDream-ai/HiDream-E1-1",
+        nanogpt: "hidream-e1-1",
     },
     {
         imagerouter: "HiDream-ai/HiDream-I1-Dev",
@@ -403,17 +417,19 @@ const providelMapping = [
         imagerouter: "HiDream-ai/HiDream-I1-Fast",
         runware: "runware:97@3",
         fal: "fal-ai/hidream-i1-fast",
+        nanogpt: "hidream-i1-fast",
     },
     {
         imagerouter: "HiDream-ai/HiDream-I1-Full",
         runware: "runware:97@1",
         chutes: "hidream",
         fal: "fal-ai/hidream-i1-full",
+        nanogpt: "hidream",
     },
     {
         imagerouter: "ideogram-ai/ideogram-v2a",
         replicate: "ideogram-ai/ideogram-v2a",
-        fal: "fal-ai/ideogram/v2",
+        fal: "fal-ai/ideogram/v2a",
     },
     {
         imagerouter: "ideogram-ai/ideogram-v2a-turbo",
@@ -424,6 +440,7 @@ const providelMapping = [
         imagerouter: "ideogram-ai/ideogram-v3",
         replicate: "ideogram-ai/ideogram-v3",
         fal: "fal-ai/ideogram/v3",
+        nanogpt: "ideogram-v3-default",
     },
     {
         imagerouter: "ideogram-ai/ideogram-v3-balanced",
@@ -432,10 +449,12 @@ const providelMapping = [
     {
         imagerouter: "ideogram-ai/ideogram-v3-quality",
         replicate: "ideogram-ai/ideogram-v3-quality",
+        nanogpt: "ideogram-v3-quality",
     },
     {
         imagerouter: "ideogram-ai/ideogram-v3-turbo",
         replicate: "ideogram-ai/ideogram-v3-turbo",
+        nanogpt: "ideogram-v3-turbo",
     },
     {
         imagerouter: "imagineart/imagineart-1.5",
@@ -508,6 +527,7 @@ const providelMapping = [
     {
         chutes: "chroma",
         imagerouter: "lodestones/Chroma",
+        nanogpt: "chroma",
     },
     {
         imagerouter: "luma/photon",
@@ -580,6 +600,7 @@ const providelMapping = [
         fal: "fal-ai/gpt-image-1/text-to-image",
         wavespeed: "openai/gpt-image-1",
         runware: "openai:1@1",
+        replicate: "openai/gpt-image-1",
     },
     {
         imagerouter: "openai/gpt-image-1-mini",
@@ -587,10 +608,13 @@ const providelMapping = [
         openai: "gpt-image-1-mini",
         fal: "fal-ai/gpt-image-1-mini",
         wavespeed: "openai/gpt-image-1-mini/text-to-image",
+        replicate: "openai/gpt-image-1-mini",
     },
     {
         imagerouter: "openai/sora-2",
         runware: "openai:3@1",
+        replicate: "openai/sora-2",
+        nanogpt: "sora-2",
     },
     {
         imagerouter: "philz1337x/clarity-2x",
@@ -599,11 +623,11 @@ const providelMapping = [
     {
         fal: "fal-ai/recraft/v3/text-to-image",
         imagerouter: "recraft-ai/recraft-v3",
+        nanogpt: "recraft-v3",
     },
     {
         imagerouter: "recraft-ai/recraft-v3-svg",
         replicate: "recraft-ai/recraft-v3-svg",
-        fal: "fal-ai/recraft/vectorize",
     },
     {
         fal: "fal-ai/recraft/vectorize",
