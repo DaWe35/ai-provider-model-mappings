@@ -32,8 +32,7 @@ curl 'https://wavespeed.ai/center/default/api/v1/model_product/find' \
 ### NanoGPT
 ```
 curl --request GET \
-  --url https://nano-gpt.com/api/models \
-  --header 'Authorization: Bearer YOUR_API_KEY'  > nanogpt_models.json
+  --url https://nano-gpt.com/api/models > nanogpt_models.json
 ```
 
 ### Chutes
