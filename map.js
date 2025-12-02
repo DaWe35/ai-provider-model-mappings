@@ -753,7 +753,7 @@ const providelMapping = [
         deepinfra: "stabilityai/sdxl-turbo",
         imagerouter: "stabilityai/sdxl-turbo",
         runware: "civitai:215418@273102",
-        replicate: "jyoung105/sdxl-turbo:93c488b9fbd6bea622d354c8dcce2724c5f67adb92ccf909038042a21c5238a7",
+        replicate: "jyoung105/sdxl-turbo",
     },
     {
         imagerouter: "wavespeed/ghibli",
@@ -763,5 +763,12 @@ const providelMapping = [
         grok: "grok-2-image",
         imagerouter: "xAI/grok-2-image",
         replicate: "xai/grok-2-image",
+    },
+    {
+        huggingface: "Tongyi-MAI/Z-Image-Turbo",
+        replicate: "prunaai/z-image-turbo",
+        fal: "fal-ai/z-image/turbo",
+        wavespeed: "wavespeed-ai/z-image/turbo",
+        nanogpt: "z-image-turbo",
     }
 ];
