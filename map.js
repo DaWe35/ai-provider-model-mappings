@@ -766,6 +766,7 @@ const providelMapping = [
     },
     {
         huggingface: "Tongyi-MAI/Z-Image-Turbo",
+        imagerouter: "Tongyi-MAI/Z-Image-Turbo",
         replicate: "prunaai/z-image-turbo",
         fal: "fal-ai/z-image/turbo",
         wavespeed: "wavespeed-ai/z-image/turbo",
