@@ -771,5 +771,23 @@ const providelMapping = [
         fal: "fal-ai/z-image/turbo",
         wavespeed: "wavespeed-ai/z-image/turbo",
         nanogpt: "z-image-turbo",
+    },
+    {
+        fal: 'fal-ai/ovis-image',
+        huggingface: 'AIDC-AI/Ovis-Image-7B',
+        imagerouter: 'AIDC-AI/Ovis-Image-7B'
+    },
+    {
+        fal: 'fal-ai/bytedance/seedream/v4.5/text-to-image',
+        imagerouter: 'bytedance/seedream-4.5',
+        wavespeed: 'bytedance/seedream-v4.5',
+        nanogpt: 'seedream-v4.5',
+        replicate: 'bytedance/seedream-4.5',
+        runware: 'bytedance:seedream@4.5',
+    },
+    {
+        imagerouter: 'prunaai/P-Image-1.0',
+        replicate: 'prunaai/p-image',
+        runware: 'prunaai:1@1',
     }
 ];
