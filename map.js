@@ -56,6 +56,13 @@ const providelMapping = [
         wavespeed: "wavespeed-ai/flux-2-pro/text-to-image",
     },
     {
+        imagerouter: "black-forest-labs/FLUX-2-max",
+        runware: "bfl:7@1",
+        fal: "fal-ai/flux-2-max",
+        wavespeed: "wavespeed-ai/flux-2-max/text-to-image",
+        replicate: "black-forest-labs/flux-2-max",
+    },
+    {
         imagerouter: "black-forest-labs/flux-kontext-max",
         runware: "bfl:4@1",
         fal: "fal-ai/flux-pro/kontext/max",
@@ -669,6 +676,15 @@ const providelMapping = [
         fal: "fal-ai/gpt-image-1-mini",
         wavespeed: "openai/gpt-image-1-mini/text-to-image",
         replicate: "openai/gpt-image-1-mini",
+    },
+    {
+        imagerouter: "openai/gpt-image-1.5",
+        nanogpt: "gpt-image-1.5",
+        openai: "gpt-image-1.5",
+        fal: "fal-ai/gpt-image-1.5/text-to-image",
+        wavespeed: "openai/gpt-image-1.5/text-to-image",
+        replicate: "openai/gpt-image-1.5",
+        runware: "openai:4@1",
     },
     {
         imagerouter: "openai/sora-2",
