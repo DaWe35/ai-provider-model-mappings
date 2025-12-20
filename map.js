@@ -681,7 +681,7 @@ const providelMapping = [
         imagerouter: "openai/gpt-image-1.5",
         nanogpt: "gpt-image-1.5",
         openai: "gpt-image-1.5",
-        fal: "fal-ai/gpt-image-1.5/text-to-image",
+        fal: "fal-ai/gpt-image-1.5",
         wavespeed: "openai/gpt-image-1.5/text-to-image",
         replicate: "openai/gpt-image-1.5",
         runware: "openai:4@1",
