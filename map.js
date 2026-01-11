@@ -805,5 +805,12 @@ const providelMapping = [
         imagerouter: "prunaai/P-Image-1.0",
         replicate: "prunaai/p-image",
         runware: "prunaai:1@1",
+    },
+    {
+        imagerouter: "fal/flux-2-dev-turbo",
+        fal: "fal-ai/flux-2-dev-turbo",
+        huggingface: "fal/FLUX.2-dev-Turbo",
+        wavespeed: "wavespeed-ai/flux-2-turbo/text-to-image",
+        replicate: "prunaai/flux-2-turbo",
     }
 ];
