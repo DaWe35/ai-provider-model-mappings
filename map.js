@@ -808,7 +808,7 @@ const providelMapping = [
     },
     {
         imagerouter: "fal/flux-2-dev-turbo",
-        fal: "fal-ai/flux-2-dev-turbo",
+        fal: "fal-ai/flux-2/turbo",
         huggingface: "fal/FLUX.2-dev-Turbo",
         wavespeed: "wavespeed-ai/flux-2-turbo/text-to-image",
         replicate: "prunaai/flux-2-turbo",
