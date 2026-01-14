@@ -812,5 +812,12 @@ const providelMapping = [
         huggingface: "fal/FLUX.2-dev-Turbo",
         wavespeed: "wavespeed-ai/flux-2-turbo/text-to-image",
         replicate: "prunaai/flux-2-turbo",
+    },
+    {
+        imagerouter: "zai/glm-image",
+        huggingface: "zai-org/GLM-Image",
+        nanogpt: "glm-image",
+        fal: "fal-ai/glm-image",
+        wavespeed: "z-ai/glm-image/text-to-image",
     }
 ];
