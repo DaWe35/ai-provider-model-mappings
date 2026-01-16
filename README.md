@@ -1,4 +1,7 @@
-# AI Model-Mappings
+# This repo is abandoned
+I no longer add new models to this repo, because of the lack of public interest. Repo is still open for PRs.
+
+### AI Model-Mappings
 Providers are a bit too creative with model names, serving the same model but under a different name. This repo maps them together.
 
 # Contributing
